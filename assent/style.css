@@ -61,12 +61,13 @@ footer{
 }
 
 .sonia {
-  display: flex;
   text-align: center;
+  box-shadow: #4e4e4e;
+  
 }
 
 h2{
-  color: #61dafb;
+  color: #ffff;
   text-align: center;
 }
 h1 {
@@ -100,6 +101,7 @@ p{
 .container p{
   font-size: clamp(0.4rem, 0.2rem + 9vw, 1.8rem);
   margin: 10px 0;
+  text-align: center;
 }
 
 .social-icons {
@@ -132,9 +134,9 @@ p{
     box-shadow: 0  0 25px #61dafb;
 }
 .full-width-image {
-  text-align: center;
-  width: 350px;
-    height: 50vh;
+  width: 380p%;
+    height: 45vh;
     border-radius: 2%;
-    box-shadow: 0 0 50px #61dafb;
-}
+    box-shadow: 0 0 20px #61dafb;
+    text-align: center;
+  }
